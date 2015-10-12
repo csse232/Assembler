@@ -1,0 +1,33 @@
+// # denotes a register
+// @ denotes an instruction
+
+-registers
+#0_000
+#PC_001
+#SP_010
+#RA_011
+#A0_100
+#A1_101
+#T0_110
+#T1_111
+
+-instructions
+@add_R_0000_000
+@addi_I_0001_
+@or_R_0000_010
+@and_R_0000_011
+@sub_R_0000_001
+@lw_I_0010_
+@sw_I_0011_
+@ori_0100_
+@andi_I_0101_
+@sll_R_0000_100
+@srl_R_0000_101
+@sra_R_0000_110
+@beq_I_0111_
+@bne_I_1000_
+@j_J_1001_
+@jal_J_1010_
+@jr_J_1011_
+@out_R_1100_000
+@in_R_1100_001

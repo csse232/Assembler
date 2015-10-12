@@ -1,0 +1,8 @@
+// R-Type
+add #T0 #T0 #T1
+
+// I-Type
+addi #T0 #T0 1
+lw #T0 imm(#T1)
+
+// J-Type
